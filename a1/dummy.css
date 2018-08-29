@@ -1,0 +1,29 @@
+body{
+    color: white;
+}
+#boxes{
+    color: white;
+    display: flex;
+    justify-content: space-around;    flex-wrap:  wrap;
+    margin-top: 0px;}
+.box1{
+    width: 400px;
+    color: white;   
+}
+.box2{
+    width: 400px;
+    color: white;
+}
+.box3{
+    width: 400px;
+}
+.box4{
+    width: 400px;
+    
+}
+.box5{
+    width: 400px;
+}
+.box6{
+    width: 400px;
+}
