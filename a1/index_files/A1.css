@@ -233,14 +233,14 @@ a:hover{
 		text-align: left;
 	}*/
 }
-.col-container,.md3{
+.col-container{
 	display: flex;
 	width:100%;
 	flex-wrap: wrap;
 
 }
 
-.col1,.col2,.col3,.sec{
+.col1,.col2,.col3{
 	flex-grow: 1;
 	flex-shrink: 1;
 	padding: 10px;
@@ -258,18 +258,16 @@ a:hover{
 	flex:1;
 }
 .col3{
-	flex: 1;
+	flex:1;
 }
-.col1,.col2,.col3 a{
+.col1,.col2 a{
 	font-family: sans-serif;
 	font-size: 20px;
 }
-.sec{
-	display: flex;
-	width:100%;
-	flex-wrap: wrap;
-
+.col3 a{
+	font-family: sans-serif;
 }
+
 /*.c1{
 	flex-grow: 1;
 	flex-shrink: 1;
@@ -286,37 +284,9 @@ a:hover{
 	vertical-align: middle;
 	border: 0;
 }
-#m{
-	color: white;
-	font-size: 4px;
-	display: flex;
-	flex-wrap: wrap;
-}
-.box1 {
-	color: white;
-	
-}
-.cnt1{
-	font-size: 20px;
-	margin-bottom: 20px;
-}
-.c1,.c2,.c3 a{
-	font-family: sans-serif;
-	font-size: 20px;
-}
-.h33{
-	flex-grow: 1;
-	flex-shrink: 1;
-	padding: 10px;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	position:relative;
-	font-family: sans-serif;
-	margin: 0;
-	width:100%;
-	color: white;
 
-}
+
+
 .footer{
 	/*position: fixed;*/
 	display: flex;
